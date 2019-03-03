@@ -13,6 +13,10 @@
                 <name>hideUpdateButton</name>
                 <value>false</value>
             </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>variant</name>
+                <value>linear</value>
+            </componentInstanceProperties>
             <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
         </componentInstances>
         <mode>Replace</mode>
@@ -55,6 +59,13 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>MortgageCalcWithAmortization</componentName>
+        </componentInstances>
+        <name>facet-10e2e3cd-2f87-49df-8e5d-58d632b4c7d3</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
                 <value>relatedTabContent</value>
@@ -91,6 +102,17 @@
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>body</name>
+                <value>facet-10e2e3cd-2f87-49df-8e5d-58d632b4c7d3</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>title</name>
+                <value>Mortgage</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:tab</componentName>
+        </componentInstances>
         <mode>Replace</mode>
         <name>maintabs</name>
         <type>Facet</type>
@@ -109,9 +131,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>PropertyDaysOnMarketChart</componentName>
-        </componentInstances>
-        <componentInstances>
             <componentInstanceProperties>
                 <name>latField</name>
                 <value>Location__Latitude__s</value>
@@ -124,14 +143,10 @@
                 <name>titleField</name>
                 <value>Name</value>
             </componentInstanceProperties>
-            <componentName>MapCard</componentName>
+            <componentName>RecordMap</componentName>
         </componentInstances>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>animations</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentName>PictureGalleryCard</componentName>
+            <componentName>PropertyCarousel</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
